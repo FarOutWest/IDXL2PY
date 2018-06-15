@@ -1,0 +1,20 @@
+#commenting
+
+#another comment
+set somevar 2
+set someothervar "word"
+
+#one last comment
+
+if version > 0 then
+   set measureform "MM/DD/YY HH:MI:SS AM"
+else
+   set measureform "DD-MON-YY HH24:MI:SS"
+endif
+
+sql select prod into * from orderdetail where worknum = &worknum and
+    more lines
+    more readlines
+    some other stuff
+    just please work
+    deptnum = 55 and class != 'Q';
